@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Target Shooting Game</title>
+<style>
+    .box{
+        align-items: center;
+        margin: 10%;
+    }
+    #yes{
+        border: none;
+        width: 90px;
+        background-color: blue;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 8px;
+        
+    }
+    #yes:hover{
+        background-color: springgreen;
+    }
+
+    #game-container {
+        position: relative;
+        border: 2px solid #333;
+        margin: 5px;
+      
+    }
+    
+
+    #target {
+        position: absolute;
+        left: 300px;
+        background-color: tomato;
+        border: none;
+        width: 90px;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 8px;
+        cursor: pointer;
+        transition: top 0.5s, left 0.5s;
+    }
+   body{
+    align-content: center;
+   }
+
+</style>
+</head>
+<body>
+
+<div id="game-container">
+    <h1>* You should choose one option among them!!</h1>
+    <div class="box">
+    <h1>Do you wanna suck my dick?💓</h1>
+    <button id="yes" >Yes</button>
+    <button id="target">No</button>
+    </div>
+</div>
+
+
+
+<script>
+    let la= document.querySelector("button");
+la.addEventListener("click",iglish);
+
+function iglish()
+{
+ alert("Thanks To You❤️.Now open your mouth💕");
+}
+const target = document.getElementById('target');
+function moveTarget() {
+    const maxWidth =400;
+    const maxHeight = 400;
+
+    const randomX = Math.floor(Math.random() * maxWidth);
+    const randomY = Math.floor(Math.random() * maxHeight);
+
+    target.style.left = randomX + 'px';
+    target.style.top = randomY + 'px';
+    }
+
+    target.addEventListener('mouseenter', function() {
+        moveTarget();
+    });
+</script>
+
+</body>
+</html>

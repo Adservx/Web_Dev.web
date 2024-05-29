@@ -1,0 +1,38 @@
+body{
+    background-color:thistle;
+    margin: 0%;
+}
+div{
+    color: blue;
+    align-content: center;
+    text-align: center;
+   background-color: lightseagreen;
+    padding: 5px;
+   text-shadow: 1px 2px  gold;
+   border-radius: 10px;
+}
+a:hover{
+    color: blue;
+}
+a{
+    float: left;
+    padding: 10px;
+    color:orange;
+    text-shadow: none;
+
+}
+nav{
+    margin-top: 7px;
+    background-color: gray;
+    overflow: hidden;
+    padding: 0%;
+    border-radius: 7px;
+}
+
+.st{
+    text-align: center;
+    margin: 1px;;
+}
+.bdd{
+    padding: 50px;
+}
