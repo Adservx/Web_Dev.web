@@ -1,15 +1,32 @@
 body{
-    background-color:thistle;
+    background-color:whitesmoke;
     margin: 0%;
 }
+pre{
+    white-space: pre-wrap;      /* Wrap text */
+      word-wrap: break-word;      /* Break long words */
+      overflow: auto;             /* Add scrollbars if necessary */
+      max-width: 100%;            /* Ensure it doesn't overflow its container */
+      background-color: #f4f4f4;  /* Optional: Background color */
+      padding: 10px;              /* Optional: Padding for better readability */
+      border: 1px solid #ccc;
+    color:blue;
+}
+.go{
+color: black;
+}
+img{
+    margin: 0%;
+    padding-top: 30px;
+    height: 70px;
+    width: 75px;
+}
 div{
-    color: blue;
+    color: tomato;
     align-content: center;
     text-align: center;
-   background-color: cornsilk;
-    padding: 5px;
-   text-shadow: 1px 2px  gold;
-   border-radius: 10px;
+    background-color: #1487b9;
+    text-shadow: 1px 2px gold;
 }
 a:hover{
     color: blue;
@@ -17,22 +34,22 @@ a:hover{
 a{
     float: left;
     padding: 10px;
-    color:orange;
+    color:white;
     text-shadow: none;
 
 }
 nav{
-    margin-top: 7px;
-    background-color: gray;
+    position: fixed;
+    margin-top: 0px;
+    background-color: black;
     overflow: hidden;
     padding: 0%;
-    border-radius: 7px;
-}
-
-.st{
-    text-align: center;
-    margin: 1px;;
+    top: 0;
+  width: 100%;
 }
 .bdd{
     padding: 50px;
+}
+mark{
+    background-color: #ccc;
 }

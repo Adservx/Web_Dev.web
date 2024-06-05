@@ -1,4 +1,4 @@
-let age;
+/*let age;
 age=prompt("enter your age:");
 if(age<18)
     {
@@ -70,4 +70,4 @@ for(let i in std)
     {
         console.log("key is:",i,"value is:",std[i]);
 
-    }
+    }*/
