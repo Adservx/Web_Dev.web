@@ -1,39 +1,55 @@
-#flx{
-    flex-wrap: wrap;
-    display: flex;
-    text-align: center;
-    color: bisque;
-    background-color: black;
-    justify-content: space-around;
-}
-.box1{
-   align-content: center;
-    background-color: blue;
-    height: 100px;
-    width: 100px;
-}
-.box1:nth-child(2){
-    background-color: red;
-}
-.box1:nth-child(4){
-    background-color:cornsilk;
-}
-h1{
-    color: yellow;
-    text-align: center;
-    font-family: 'Trebuchet MS';
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-button{
-    background-color: springgreen;
-    border-radius: 5px;
+header {
+    background-color: #1487b9;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
-.btn{
-   text-align: center;
+
+.about {
+    padding: 2em;
+    background-color: #f4f4f4;
 }
-button:hover{
-    background-color: white;
+
+.content {
+    border-radius: 7px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-body{
-    background-color: black;
+
+h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #eee;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 1em;
+    }
+
+    header {
+        padding: 0.5em 0;
+    }
+
+    .about {
+        padding: 1em;
+    }
 }

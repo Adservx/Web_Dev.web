@@ -1,0 +1,22 @@
+header {
+    background-color: #1487b9;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0px 0px 1000px 1000px ;
+}
+body{
+    background-image: url("aa.png");
+    margin: 0%;
+}
+iframe{  padding: none;
+    border-radius: 10px;
+    box-shadow: 10px  2px 30px green;
+    max-width: 100%;
+    margin-top: 20px;
+    align-self:center;
+}
+h2{
+    background-color: gainsboro;
+    text-align: center;
+}

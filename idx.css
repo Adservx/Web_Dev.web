@@ -1,4 +1,5 @@
 body{
+    text-align: center;
     background-color:whitesmoke;
     margin: 0%;
 }
@@ -52,4 +53,7 @@ nav{
 }
 mark{
     background-color: #ccc;
+}
+ul{
+    padding:18px
 }

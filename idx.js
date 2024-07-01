@@ -1,1 +1,1 @@
-alert("This website is still developing.... it may took several month.Click ok to continue for sample of it..!!")
+alert("This website is still developing.... it may took several month.Click ok to continue for sample of it..!!");
