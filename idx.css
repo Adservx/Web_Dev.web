@@ -23,11 +23,11 @@ img{
     width: 75px;
 }
 div{
-    color: tomato;
+    color: white;
     align-content: center;
     text-align: center;
     background-color: #1487b9;
-    text-shadow: 1px 2px gold;
+    text-shadow: 1px 1px red;
 }
 a:hover{
     color: blue;
