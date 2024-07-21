@@ -2,6 +2,7 @@ body{
     text-align: center;
     background-color:whitesmoke;
     margin: 0%;
+
 }
 pre{
     white-space: pre-wrap;      /* Wrap text */
@@ -32,12 +33,14 @@ div{
 a:hover{
     color: blue;
 }
-a{
-    float: left;
-    padding: 10px;
+a{   
+    font-weight: bold;
+    font-family:  Arial, sans-serif;
+    background-color:transparent;
+    float: center;
+    padding: 20px;
     color:white;
     text-shadow: none;
-
 }
 nav{
     position: fixed;

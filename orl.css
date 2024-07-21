@@ -1,4 +1,5 @@
 header {
+    box-shadow: 8px  4px 60px black;
     background-color: #1487b9;
     color: white;
     text-align: center;
@@ -8,6 +9,10 @@ header {
 body{
     background-image: url("aa.png");
     margin: 0%;
+    background: linear-gradient( rgb(36, 132, 170), transparent),
+    linear-gradient(to top left,  blue, transparent),
+    linear-gradient(to top right, white, transparent);
+background-blend-mode: screen;
 }
 iframe{  padding: none;
     border-radius: 10px;
