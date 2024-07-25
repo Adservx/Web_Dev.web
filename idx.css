@@ -31,18 +31,31 @@ div{
     text-shadow: 1px 1px red;
 }
 a:hover{
-    color: blue;
+    color: #49ff24;
 }
 a{   
-    font-weight: bold;
+    border: 0.01px solid skyblue;
+    font-weight:  bold;
     font-family:  Arial, sans-serif;
     background-color:transparent;
-    float: center;
-    padding: 20px;
+   
+    padding: 10px;
     color:white;
     text-shadow: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 5px 6.8px;
+    margin: 5px;
+    background-color: #0074D9;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
 }
-nav{
+nav{ 
+
     position: fixed;
     margin-top: 0px;
     background-color: black;
