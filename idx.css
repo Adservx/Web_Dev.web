@@ -34,7 +34,7 @@ a:hover{
     color: #49ff24;
 }
 a{   
-    border: 0.01px solid skyblue;
+    border: 0.000000000000001px solid gray;
     font-weight:  bold;
     font-family:  Arial, sans-serif;
     background-color:transparent;
@@ -72,4 +72,7 @@ mark{
 }
 ul{
     padding:18px
+}
+.vb{
+    background-color: skyblue;
 }
