@@ -4,7 +4,6 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
-    border-radius: 0px 0px 1000px 1000px ;
 }
 body{
     background-image: url("aa.png");
@@ -16,7 +15,7 @@ background-blend-mode: screen;
 }
 iframe{  padding: none;
     border-radius: 10px;
-    box-shadow: 10px  2px 30px green;
+    box-shadow: 10px  2px 30px black;
     max-width: 100%;
     margin-top: 20px;
     align-self:center;
