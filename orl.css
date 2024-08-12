@@ -16,9 +16,10 @@ background-blend-mode: screen;
 iframe{  padding: none;
     border-radius: 10px;
     box-shadow: 10px  2px 30px black;
-    max-width: 100%;
+   width: 100vw;
     margin-top: 20px;
     align-self:center;
+    height: 100vh;
 }
 h2{
     background-color: gainsboro;
