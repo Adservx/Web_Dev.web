@@ -2,7 +2,6 @@ body{
     text-align: center;
     background-color:whitesmoke;
     margin: 0%;
-
 }
 pre{
     white-space: pre-wrap;      /* Wrap text */
@@ -81,4 +80,15 @@ ul{
     align-content: center;
     text-align: center;
     background-color: #1487b9;
+}
+.bgp{
+    max-width: 100%;
+            margin: 0 auto;
+            text-align: center;
+
+}
+.zz{
+    width: 10%;
+    max-width: 100%;
+            height: auto;
 }
